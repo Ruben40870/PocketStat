@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Service - PocketStat</title>
     <style>
+        /* This is the exact same styling as the Terms of Service page */
         /* Basic Body Styling */
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
-            background-color: #f8f9fa; /* A light grey background */
-            color: #212529; /* A dark color for text for readability */
+            background-color: #212529; /* Dark background as per image */
+            color: #f8f9fa; /* Light text for readability on dark background */
             margin: 0;
             padding: 20px;
         }
@@ -19,50 +20,52 @@
         .container {
             max-width: 800px;
             margin: 20px auto; /* Centers the container */
-            padding: 40px;
-            background-color: #ffffff; /* White background for the content box */
-            border: 1px solid #dee2e6; /* A subtle border */
-            border-radius: 8px; /* Rounded corners */
-            box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* A subtle shadow for depth */
+            padding: 20px 40px; /* Top/Bottom | Left/Right padding */
+            background-color: #212529; /* Match body background */
         }
 
         /* Headings */
+        h1, h2 {
+            color: #ffffff;
+            font-weight: 500;
+        }
+
         h1 {
             text-align: center;
-            color: #343a40;
             margin-bottom: 30px;
         }
 
         h2 {
-            color: #343a40;
             margin-top: 30px;
             padding-bottom: 5px;
-            border-bottom: 1px solid #e9ecef; /* Separator for sections */
         }
         
-        /* Effective Date Styling */
-        .effective-date {
-            color: #6c757d; /* A muted grey color */
-            font-weight: bold;
-        }
-
         /* Paragraphs & Lists */
         p {
             margin-bottom: 15px;
+            color: #ced4da; /* A slightly softer white for paragraphs */
         }
 
         ul {
             padding-left: 20px;
             margin-top: 10px;
+            list-style-type: disc; /* Ensure bullets are visible */
         }
 
         li {
-            margin-bottom: 8px;
+            margin-bottom: 12px;
+            color: #ced4da;
         }
         
+        /* Using strong for the bolded text in list items */
+        strong {
+            color: #f8f9fa; /* Make the bolded text stand out more */
+            font-weight: 600;
+        }
+
         /* Links */
         a {
-            color: #007bff;
+            color: #0d6efd; /* A standard blue for links */
             text-decoration: none;
         }
 
